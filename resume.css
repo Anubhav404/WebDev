@@ -1,0 +1,45 @@
+.main_container{
+    border: 2px solid #18a7e1;;
+    display: flex;
+    height: 180vh;
+    padding: 10px 12px;
+
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: -30px;
+}
+.container1{
+    /* border: 2px solid red; */
+    height: 140vh;
+    width: 80vw;
+    margin: 10px 5px;
+}
+.container2{
+    /* border: 2px solid green; */
+    height: 140vh;
+    width: 80vw;
+    margin: 10px 15px;
+}
+hr{
+    color: black;
+    background-color: black;
+    border: 2px solid #18a7e1;
+}
+h1{
+    text-align: center;
+    background-color: white;
+    border: 2px solid white;
+    margin: 0 450px;
+    padding: 26px;
+    color: #18a7e1;
+
+}
+h2{
+    color: rgba(112, 161, 192, 0.849);
+    font-family: 'Baloo Tammudu 2', cursive;
+    
+}
+p , li{
+    font-family: 'Stint Ultra Condensed', cursive;
+    color: #18a7e1;
+}
