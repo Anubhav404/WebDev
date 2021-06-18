@@ -1,0 +1,31 @@
+.class{
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    margin: 1px;
+}
+.column{
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 2px solid black; */
+    
+}
+.box{
+    
+    /* display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+} */
+    height: 100vh;
+    border: 2px solid black;
+
+}
+
+.clicked{
+    background-color: white;
+}
