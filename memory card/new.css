@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: mediumaquamarine;
+    display: flex;
+}
+.memory-game{
+    border: 2px solid aqua;
+    width: 640px;
+    height: 640px;
+    display: flex ;
+    flex-wrap: wrap ;
+    margin: auto;
+    perspective: 1000px;
+}
+
+.memory-card{
+    /* border: 2px solid lime; */
+    height: calc(33.33% - 10px);
+    width: calc(25% - 10px);
+    position: relative;
+    margin: 5px;
+    transform: scale(1);
+    transform-style: preserve-3d; 
+    /* both are main propertiees */
+    transition: transform .5s;
+}
+.memory-card:active{
+    transform:scale(.97) ;
+    transition: transform .2s;
+}
+
+.memory-card.flip{
+    transform: rotateY(180deg);
+    
+}
+.front-face ,.back-face{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    background-color: #1c7ccc;
+    border-radius:12px ;
+    position: absolute;
+    backface-visibility: hidden;
+    /* when i will click then the backface will be hidden and no card will be visible */
+}
+
+.front-face{
+    transform: rotateY(180deg);
+    /* roatateY is used to rotate the card only 180 deg so that we can see the other image which is hidden back of it it means we will be able to see the image which were positioned absolute before and are hidden backside of the ohter image */
+    
+}
