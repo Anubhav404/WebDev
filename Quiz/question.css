@@ -1,0 +1,106 @@
+.first-page{
+    border: 2px solid black;
+    margin: 2px 3px;
+    padding: 14px 12px;
+    height: 80vh;
+    width: 90vh;
+    /* position: absolute; */
+    /* top: 60px; */
+    
+}
+
+.second-page{
+    border: 2px solid black;
+    margin: 2px 3px;
+    padding: 14px 12px;
+    height: 80vh;
+    width: 90vh;
+    /* position: absolute; */
+    /* top: 60px; */
+    display: none;
+
+}
+
+.third-page{
+    border: 2px solid black;
+    margin: 2px 3px;
+    padding: 14px 12px;
+    height: 80vh;
+    width: 90vh;
+    /* position: absolute; */
+    /* top: 60px; */
+    display: none;
+}
+
+.fourth-page{
+    border: 2px solid black;
+    margin: 2px 3px;
+    padding: 14px 12px;
+    height: 80vh;
+    width: 90vh;
+    /* position: absolute; */
+    /* top: 60px; */
+    display: none;
+}
+.heading{
+    /* border: 2px solid blue; */
+    padding: 7px 7px;
+}
+
+.main-container{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction:column ;
+     /* justify-content: center;  */
+    align-items: center; 
+    position: relative;
+    /* height: 1000vh; */
+}
+
+.next, .next2 ,.next3 ,.next4{
+    padding: 4px 5px;
+    border: 2px solid green;
+    width: 80px;
+    border-radius: 12px;
+    cursor: pointer;
+    /* position: absolute; */
+    bottom: 12px;
+}
+
+.next2:hover{
+    background-color: green;
+    font-size: 20px;
+    transition: .5s;
+    
+}
+
+.next3:hover{
+    background-color: green;
+    font-size: 20px;
+    transition: .5s;
+    
+}
+
+.next4:hover{
+    background-color: green;
+    font-size: 20px;
+    transition: .5s;
+    
+}
+
+.next:hover{
+    background-color: green;
+    font-size: 20px;
+    transition: .5s;
+    
+}
+
+.options , .options2 ,.options3 ,.options4{
+    margin: 13px 4px;
+}
+
+
+
+span{
+    font-size:20px ;
+}
