@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(212, 245, 150);
+}
+
+.container{
+    height: 300px;
+    width: 550px;
+    border: 2px solid black;
+    /* margin-top: 5px; */
+    margin: 0 23px;
+    padding: 22px;
+    background-color: gainsboro;
+
+}
+
+.button1{
+    height: 43px;
+    position: absolute;
+    width: 90px;
+    top: 12px;
+    right: 24px;
+    overflow: hidden;
+   border: 2px solid black;
+   border-bottom-left-radius: 2px solid white;
+   background-color: rgb(192, 159, 159);
+   padding: 5px;
+
+    
+}
+
+
+.heading{
+    background-color: red;
+    width: 150vh;
+    text-align: center;
+
+}
+.todo{
+    position: relative;
+    display: flex;
+    border: 2px solid red;
+    /* padding: 0 40px; */
+    background-color: red;
+
+    
+
+}
+input{
+    
+   border: 2px solid black;
+    margin: 12px 23px;
+    width: 100vh;
+    height: 30px;
+    padding: 5px;
+    font-size: 20px;
+}
+.todo-list{
+    /* border: 2px solid red; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.listbox{
+    border: 2px solid black;
+    width: 96vh;
+    margin: 2px -17px;
+    padding: 12px 12px;
+    background-color: rgb(196, 183, 183);
+}
+
+.close{
+    background-color: black;
+
+}
