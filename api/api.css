@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(30, 228, 235);
+}
+#topic{
+    margin-top: 20px;
+    text-align: center;
+}
+#ipbox , #btn{
+    display: flex;
+    position: relative;
+    left :50%;
+    top:5%;
+    transform: translate(-50%,0);
+    /* padding: 10px; */
+}
+#ipbox{
+    font-size: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    outline: none;
+
+    
+}
+#btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+#btn:hover{
+    box-shadow: 5px 5px 10px #222;
+}
+.output{
+    margin-top: 40px;
+    margin-left: 50px;
+    /* width: 380px;
+    height: 380px; */
+    /* border: 2px solid cadetblue; */
+    
+}
+#username{
+    font-size: 2rem;
+    margin-left: 50px;
+}
+#repo{
+    margin-left: 35%;
+    float : left;
+    transform: translateY(-200%);
+
+}
+.reponame{
+    font-size: 25px;
+    
+}
