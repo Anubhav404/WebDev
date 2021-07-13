@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="intro.css">
+    </head>
+
+    <body>
+        <!-- <nav>
+            <div class="navbar">
+
+                <img src="mylogo.jpg" alt="" id="logo">
+                <ul>
+                    <li> <a href="#second"> About Myself </a></li>
+                    <li> <a href="#contact"> Contact Me </a></li>
+                    <li> <a href=""> Meet Me </a> </li>
+
+                </ul>
+            </div>
+        </nav> -->
+        <header>
+            <img src="mylogo.jpg" alt="" id="logo" >
+            <nav>
+                <ul>
+                    <li> <a href="#second"> About Myself </a></li>
+                    <li> <a href="#contact"> Contact Me </a></li>
+                    <li> <a href=""> Meet Me </a> </li>
+
+                </ul>
+            </nav>
+        </header>
+        <div class="firstpage">
+            <div class="intro">
+                <h1>Welcome To My Website </h1>
+                <p><i> Please Visit Full Website </i> </p>
+            </div>
+            <div class="box">
+                <p>Hello! Welcome You To My Site </p>
+                <p>Myself Anubhav Soni and currently I am learning Web Development and I am in first yearn and persuing
+                    BTech in Computer Science from JECRC College</p>
+            </div>
+
+        </div>
+        <div class="secondpage" id="second">
+            <div class="intro2">
+                <h1>My Skills</h1>
+                <p>Here are some of my skills and my intrest's</p>
+                <ul id="lists">
+                    <li><a href="https://www.w3schools.com/whatis/" target="_blank">Web Development</a> </li>
+
+                    <li><a href="https://www.csoonline.com/article/3238128/what-is-ethical-hacking-and-how-to-become-an-ethical-hacker.html   "
+                            target="_blank">Ethical
+                            Hacking </a> </li>
+                    <li><a href="">Programming Languages </a> </li>
+                    <li><a href="">Enterpreneurship </a> </li>
+                    <li><a href="">Buiseness </a> </li>
+                    <li><a href="">Astornomy </a> </li>
+                </ul>
+                <div class="note">
+                    <h2>Note</h2>
+                    <p>Know More About The Skills By Clicking On Them</p>
+                </div>
+                <div class="clickme" id="clickonme">
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="contact_page" id="contact">
+            <div class="forms">
+                <form action="">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="First Name">
+                    <br><br>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="Last Name">
+                    <br><br>
+                    <label for="number">Contact No.</label>
+                    <input type="number" id="number" name="Contact No." maxlength="10" minlength="1">
+                    <br><br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label><br><br>
+                    <p>Message</p>
+                    <textarea id="message" name="message" rows="10" cols="100"></textarea>
+                    <br><br>
+                    
+
+                        <input type="submit"  class="button">
+                    
+
+
+                </form>
+            </div>
+        </div>
+
+        <div class="thirdpage">
+            <div class="square">
+                <div class="box1">
+                    <Details>
+
+                        <summary>MY ACHIVEMENTS</summary>
+                        <ul>
+                            <li>Skater(National + International</li>
+                            <li>Archer(State)</li>
+                            <li>Coder</li>
+                            <li>Web Developer</li>
+                        </ul>
+                    </Details>
+
+                </div>
+                <div class="box2">
+                    <Details>
+
+                        <summary>My Awards</summary>
+                        <p>I have won more then 10 awards</p>
+                    </Details>
+                </div>
+                <div class="box3">
+                    <Details>
+
+                        <summary>My intrests</summary>
+                        <ul>
+                            <li>Coding</li>
+                            <li>Problem Solving                            </li>
+                            <li>Creating Softwares</li>
+                            <li>Ethical Hacking</li>
+                        </ul>
+                    </Details>
+                </div>
+                <div class="box4">
+                    <Details>
+
+                        <summary>What i will be in next 10 years</summary>
+                        <ul>
+                            <li>A Billinaier</li>
+                            <li>Owning a jet</li>
+                            <li>Travell to space</li>
+                            <li>A Hacker</li>
+                            <li>A genius and expert in technology</li>
+                        </ul>
+                    </Details>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer">
+                <p>© 2021 Gandalf</p>
+                <a href="https://www.google.com/" target="_blank"> <input type="image" src="mylogo.jpg"
+                        class="logofooter"> </a>
+            </div>
+
+
+        </footer>
+        <script>
+            // var drop = document.getElementById('web');
+            // drop.addEventListener('click' , function(){
+            //     var h = document.getElementsByTagName('h5');
+            //     h.style.display = 'none';
+            // })
+            var click = document.getElementById("clickonme");
+            click.addEventListener('click', function () {
+                var change = document.getElementById('second');
+                change.style.background = "  url('chang.jpg') no-repeat center center ";
+                change.style.backgroundSize = " 100vw"
+                setInterval(() => {
+                    change.style.background = "  url('3.png') no-repeat center center ";
+                }, 2000);
+
+
+            })
+
+
+
+        </script>
+
+    </body>
+
+</html>

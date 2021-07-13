@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+.firstpage{
+    background-image: url('1.png');
+     height: 100vh;
+    /* width: 100vh; */
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro{
+    padding: 23px 12px;
+    text-align: center;
+    /* border: 2px solid violet; */
+    
+}
+.intro h1{
+    letter-spacing: 4px;
+    line-height: 52px;
+}
+.intro p{
+    line-height: 52px;
+
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.box{
+    padding: 13px 0px;
+    /* border: 2px solid black; */
+}
+.secondpage{
+    background-image: url('1.png');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro2{
+    /* border: 2px solid black; */
+    padding: 35px 44px 38px 88px;
+    margin-right: 316px;
+}
+.intro2 p {
+    font-size: large;
+    font-weight: bolder;
+}
+.intro2 li {
+    margin: 12px 23px;
+    height: 40px;
+    transition: transform 500ms  25ms;
+}
+.intro2 li:hover{
+    font-size:34px ;
+    transform: translateX(0px) ;
+}
+.intro2 li a{
+    text-decoration: none;
+}
+.note{
+    border: 2px solid red;
+    background-color: pink;
+    border-radius: 34px;
+    padding: 12px 23px;
+}
+.clickme{
+    border: 2px solid black;
+    height: 30px;
+    width: 30px;
+    float: right;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+
+}
+
+.s{
+    border: 2px solid black;
+}
+
+.navbar ul{
+    /* border: 2px solid black; */
+    background: url('4.png') no-repeat center center ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+ul li{
+
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    line-height: 50px;
+    margin-right: 12px;
+    
+}
+
+ul img{
+    flex: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+.forms{
+    /* border: 2px solid black; */
+    padding: 23px 23px;
+    margin: 12px 23px;
+}
+
+.contact_page{
+    background: url('3.png') no-repeat center center;
+    height: 100vh;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background: green;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    color: honeydew;
+    display: flex;
+    
+}
+
+.logofooter{
+    height: 40px;
+    width: 40px;
+    margin: 0px 23px;
+    border-radius:50% ;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+body{
+    position: relative;
+}
+.thirdpage{
+    height: 100vh;
+    border: 2px solid red;
+    background: url('4.png') no-repeat center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square{
+    height: 80vh;
+    width: 150vh;
+    background: #b5c9eb;
+    border-radius: 23px;
+
+    position: relative;
+}
+
+.box1 ,.box2  ,.box3 ,.box4{
+    height: 200px;
+    width: 200px;
+    /* border: 2px solid black; */
+    margin: 5px 12px;
+    position: absolute;
+}
+.box1{ 
+    top: 0;
+}
+.box2{
+    right: 0;
+}
+.box3{
+    
+    bottom: 0;
+}
+.box4{
+    bottom: 0;
+    right: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background: url('1.png') no-repeat center center;
+}
+#logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+ nav ul li { 
+    display: inline-block;
+
+}
+
+.button{
+    padding: 12px 12px;
+    border-radius: 34px;
+    cursor: pointer;
+}
