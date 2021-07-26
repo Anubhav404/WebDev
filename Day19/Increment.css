@@ -1,0 +1,25 @@
+.main{
+    background-color: rgb(214, 184, 144);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.heading{
+    font-size: 50px;
+    text-align: center;
+}
+
+.button{
+    padding: 12px 23px;
+    border: 2px solid pink;
+    background-color: plum;
+    color: white;
+    cursor: pointer;
+}
+
+.div_one,.div_two,.div_three,.div_four{
+    margin: 10px 10px;
+}
