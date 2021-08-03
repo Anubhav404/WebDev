@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.template{
+    width: 33.33%;
+    border: 10px solid transparent;
+    display: inline-block;
+    
+}
+
+.heading{
+    text-align: center;
+}
+
+.template .images{ 
+    height: 400px;
+    width:100%;
+    border: 1px solid black;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.meme{
+    text-align: center;
+}
+
+.meme img{
+    width: auto;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.meme input{
+    margin: 10px;
+    padding: 5px;
+}
+
+.buttons button{
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
