@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'BioRhyme', serif;
+    background-color: rgb(238,241,248);
+    color: rgb(55,171,138);
+
+}
+
+.order-box{
+    border: 2px solid rgb(55,171,138);
+    display: flex;
+    padding: 23px 34px;
+    justify-content: space-between;
+    
+    
+}
+.order-box h4{
+    box-shadow: 5px 5px;
+    margin-bottom: 15px;
+}
+
+
+.order-image{
+    /* border: 2px solid black; */
+    height: 150px;
+    width: 130px;
+    background: transparent;
+}
+
+.order-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.order-left{
+    display: flex;
+}
+.order-left .left-button{
+    
+    padding: 2px 3px;
+    width: 160px;
+    border-radius: 34px;
+
+}
+
+.order-right .right-button{
+    margin: 10px 12px;
+    padding: 2px 3px;
+    width: 160px;
+    border-radius: 34px;
+}
+
+.Order-date-card{
+    border: 2px solid rgb(55,171,138);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 23px;
+}
+
+.main-card-box{
+    border: 2px solid black;
+    padding: 12px 23px;
+    margin: 2px 4px;
+    /* height: 80vh; */
+}
+
+.Order-nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: turquoise;
+    align-items: center;
+}
+
+.Order-nav h4{
+    color: white;
+    background-color: transparent;
+
+}
+
+.downkey button{
+    background-color: transparent;
+    border: none;
+    font-size: 26px;
+}
+
+.order-main-card-container{
+    border: 2px solid red;
+    margin:50px 10px;
+}
+
+.customer_image{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.customer_image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+
+}
+
+.Order-nav .back{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.cart_image{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+
+.cart_image img{
+    height: 30px;
+    width: 35px;
+    border-radius: 100%;
+}
